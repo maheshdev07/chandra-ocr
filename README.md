@@ -8,7 +8,7 @@ This project automates the full workflow of:
    * A **normal URL** (HTTP/HTTPS)
    * Or a **Base64-encoded Data URL**
 4. Downloading the **PDF file**
-5. Sending the PDF to the **Marker OCR API**
+5. Sending the PDF to the **OCR API**
 6. Saving the extracted **Markdown output** using the **same file name**
 
 ---
@@ -19,7 +19,7 @@ This project automates the full workflow of:
 * ✔ Supports **Base64 Data URL PDFs**
 * ✔ Extracts **PDF name automatically**
 * ✔ Saves results in `markdown_output/` with **same base name**
-* ✔ 100% configurable and extensible
+* ✔ flexible configurable and extensible
 
 ---
 
@@ -133,18 +133,4 @@ Example:
 ```
 invoice123.pdf → invoice123.md
 ```
-
 ---
-
-## 🧰 Logging
-
-All logs automatically saved to:
-
-```
-logs/app.log
-```
-
-Log levels include:
-
-* INFO: Process steps
-* ERROR: OCR failures or download issues
