@@ -1,4 +1,4 @@
-# 📄 Chandra-OCR Automation Pipeline - Playwright
+# 📄 Chandra-OCR Automation - API
 
 This project automates the full workflow of:
 
